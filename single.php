@@ -44,7 +44,7 @@
           <li><a href="#">Subscribe</a></li>
         </ul>
       </article>
-      <article class="story-background" style="background-image: radial-gradient(circle at 44% 37%, rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url('<?php echo $image; ?>')" >
+      <article class="story-background" style="background-image: url('<?php echo $image; ?>');" >
         <div>
           <p><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
         </div>
