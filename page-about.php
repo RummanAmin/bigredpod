@@ -4,7 +4,7 @@
   <section class="layout">
     <h2>Reaction, Debate and Discussion</h2>
     <h1>A unique and opinionated take on MUFC</h1>
-    <a href="#" class="button ">Listen Now<span class="icon-play2"></span></a>
+    <a href="/podcasts" class="button ">Listen Now<span class="icon-play2"></span></a>
     <a href="https://www.twitter.com/bigredpod" class="button">Follow Us<span class="icon-arrow-right2"></span></a>
     <div class="scroll-down">
       <p>Scroll down</p>
@@ -20,7 +20,7 @@
       <ul class="details">
         <li class="strong">Podcast Details</li>
         <li><strong>Schedule</strong><br>Weekly on Mondays</li>
-        <li><strong>Format</strong><br>Match Reaction, Opinion, Q&A</li>
+        <li><strong>Format</strong><br>Match Reaction, Opinion, Q&amp;A</li>
         <li><strong>Platforms</strong><br>iTunes, Audioboom, Web</li>
         <li><strong>Social Media</strong><br>
           <ul class="social-media">
@@ -37,7 +37,7 @@
     <article class="story-background">
       <div>
         <h4>A brief introduction to the BigRedPod</h4>
-        <p>The BigRedPod is a weekly podcast all about Manchester United Football Club.  Each week we'll have plenty of debate, reaction and opinion on the weekend’s football. We'll also be answering plenty of questions from listeners, so start sending them in today.</p>
+        <p>The BigRedPod is a weekly podcast all about Manchester United Football Club. Each week we'll have plenty of debate, reaction and opinion on the weekend&#39;s football. We'll also be answering plenty of questions from listeners, so start sending them in today.</p>
 
         <p>We started the BigRedPod because we love talking about United and we love listening to fan's opinions. So we thought it's about time we started sharing our own thoughts with other United fans as well.</p>
 

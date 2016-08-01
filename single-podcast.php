@@ -6,7 +6,7 @@
     <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
     $image = $image[0]; ?>
     <?php else :
-   $image = get_bloginfo( 'stylesheet_directory') . '/img/backgrounds/image.jpg'; ?>
+   $image = get_stylesheet_directory_uri() . '/img/backgrounds/image.jpg'; ?>
   <?php endif; ?>
 
 	<div class="band header">
