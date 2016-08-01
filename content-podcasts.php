@@ -1,6 +1,8 @@
 <?php
+  $postsPerPage = 1;
   $args = array(
-    'post_type' => 'podcast'
+    'post_type' => 'podcast',
+    'posts_per_page' => $postsPerPage
   );
 
   $loop = new WP_Query($args);

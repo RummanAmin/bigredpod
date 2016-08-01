@@ -25,9 +25,9 @@
     <section id="ajax-posts" class="layout">
 	    <?php get_template_part( 'content', 'blog' ); ?>
     </section>
-    <!-- <div class="load-more layout">
+    <div class="load-more layout">
       <a id="more_posts" class="button"><span class="icon-plus"></span></a>
-    </div> -->
+    </div>
   </div>
 
 <?php get_footer(); ?>
