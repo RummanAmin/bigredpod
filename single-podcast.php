@@ -56,6 +56,24 @@
 		<section class="layout">
 			<article class="post-content">
         <?php the_content(); ?>
+        <div class="share-post">
+          <h4>Share this post</h4>
+          <p>Thank you for visiting the BigrRedPod. Please help us by sharing this post with your friends!</p>
+          <ul>
+            <li>
+              <a href="http://twitter.com/share?text=<?php echo urlencode(the_title()); ?>&url=<?php echo urlencode(the_permalink()); ?>&via=bigredpod&related=<?php echo urlencode("Manchester United, Podcast, Football"); ?>" title="Share on Twitter" rel="nofollow" target="_blank" class="link-tw">Twitter</a>
+            </li>
+            <li>
+              <a target="_blank" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>" class="link-fb">Facebook</a>
+            </li>
+            <li>
+              <a target="black" href="https://plus.google.com/share?url=<?php the_permalink();?>&t=<?php the_title(); ?>" class="link-gp">Google +</a>
+            </li>
+            <li>
+              <a target="blank" href="https://www.tumblr.com/share?v=3&u=<?php the_permalink();?>&t=<?php the_title(); ?>" class="link-tm">Tumblr</a>
+            </li>
+          </ul>
+        </div>
       </article>
 		</section>
 	</div>
