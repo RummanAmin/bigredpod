@@ -29,9 +29,9 @@
       <article>
         <ul class="details">
           <li class="strong">Podcast Hightlights</li>
-          <li><?php echo get_post_meta($post->ID, 'info_1', true); ?></li>
-          <li><?php echo get_post_meta($post->ID, 'info_2', true); ?></li>
-          <li><?php echo get_post_meta($post->ID, 'info_3', true); ?></li>
+          <li><?php the_field('episode_info_1'); ?></li>
+          <li><?php the_field('episode_info_2'); ?></li>
+          <li><?php the_field('episode_info_3'); ?></li>
           <li><strong>Social Media</strong><br>
             <ul class="social-media">
               <li><a href="https://twitter.com/bigredpod" class="icon-twitter"></a></li>
