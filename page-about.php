@@ -36,7 +36,7 @@
     </article>
     <article class="story-background">
       <div>
-        <h4>A brief introduction to the BigRedPod</h4>
+        <h3>A brief introduction to the BigRedPod</h3>
         <p>The BigRedPod is a weekly podcast all about Manchester United Football Club. Each week we'll have plenty of debate, reaction and opinion on the weekend&#39;s football. We'll also be answering plenty of questions from listeners, so start sending them in today.</p>
 
         <p>We started the BigRedPod because we love talking about United and we love listening to fan's opinions. So we thought it's about time we started sharing our own thoughts with other United fans as well.</p>
