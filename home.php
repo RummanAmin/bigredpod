@@ -2,7 +2,7 @@
 
   <div class="band header">
     <section class="layout">
-      <?php $the_query = new WP_Query( 'showposts=1' ); ?>
+      <?php $the_query = new WP_Query( 'showposts=1&post_type=article' ); ?>
       <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
         <h2><?php the_time('l, jS F Y'); ?></h2>
         <h1><?php the_title(); ?></h1>

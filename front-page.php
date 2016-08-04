@@ -4,7 +4,6 @@
     <section class="layout">
       <?php
         $args = array(
-        'post_type' => 'podcast',
         'showposts' => 1
         );
       ?>
@@ -36,8 +35,8 @@
               <li><a href="https://twitter.com/bigredpod" class="icon-twitter"></a></li>
               <li><a href="https://www.facebook.com/bigredpod" class="icon-facebook"></a></li>
               <li><a href="https://www.instagram.com/bigredpod" class="icon-instagram"></a></li>
-              <li><a href="#" class="icon-rss2"></a></li>
-              <li><a href="#" class="icon-podcast"></a></li>
+              <li><a href="http://bigredpod.com/feed/podcast/" class="icon-rss2"></a></li>
+              <li><a href="https://audioboom.com/bigredpod" class="icon-podcast"></a></li>
             </ul>
           </li>
           <li><a href="#">Subscribe</a></li>
@@ -55,7 +54,6 @@
     <section class="layout">
       <?php
         $args = array(
-        'post_type' => 'podcast',
         'showposts' => 3
         );
 
@@ -92,7 +90,7 @@
       <p>Over the coming season, we'll be writing a ton of blog posts full of analysis and opinion on the ongoings at Manchester United.</p>
     </div>
     <section class="layout">
-      <?php $the_query = new WP_Query( 'showposts=3' ); ?>
+      <?php $the_query = new WP_Query( 'showposts=3&post_type=article' ); ?>
       <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail();?></a>

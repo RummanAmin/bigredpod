@@ -9,12 +9,12 @@
    $image = get_stylesheet_directory_uri() . '/img/backgrounds/image.jpg'; ?>
   <?php endif; ?>
 
-	<div class="band header">
+  <div class="band header">
     <section class="layout">
       <h2><?php the_time('l, jS F Y'); ?></h2>
       <h1><?php the_title(); ?></h1>
       <div class="tags">
-      	<?php the_tags( '', '', '' ); ?>
+        <?php the_tags( '', '', '' ); ?>
       </div>
       <div class="scroll-down">
         <p>Scroll down</p>
@@ -22,23 +22,23 @@
       </div>
     </section>
   </div>
-	
-	<a name="scroll-down"></a>
+  
+  <a name="scroll-down"></a>
   <div class="band intro">
     <section class="layout">
       <article>
         <ul class="details">
-          <li class="strong">Podcast Hightlights</li>
-          <li><?php the_field('episode_info_1'); ?></li>
-          <li><?php the_field('episode_info_2'); ?></li>
-          <li><?php the_field('episode_info_3'); ?></li>
+          <li class="strong">Post Details</li>
+          <li><strong>Date</strong><br><?php the_time('j F Y'); ?></li>
+          <li><strong>Category</strong><br><?php the_category( ' ' ); ?></li>
+          <li><strong>Author</strong><br><?php the_author(); ?></li>
           <li><strong>Social Media</strong><br>
             <ul class="social-media">
               <li><a href="https://twitter.com/bigredpod" class="icon-twitter"></a></li>
               <li><a href="https://www.facebook.com/bigredpod" class="icon-facebook"></a></li>
               <li><a href="https://www.instagram.com/bigredpod" class="icon-instagram"></a></li>
-              <li><a href="#" class="icon-rss2"></a></li>
-              <li><a href="#" class="icon-podcast"></a></li>
+              <li><a href="http://bigredpod.com/feed/podcast/" class="icon-rss2"></a></li>
+              <li><a href="https://audioboom.com/bigredpod" class="icon-podcast"></a></li>
             </ul>
           </li>
           <li><a href="#">Subscribe</a></li>
@@ -52,9 +52,9 @@
     </section>
   </div>
 
-	<div class="band main">
-		<section class="layout">
-			<article class="post-content">
+  <div class="band main">
+    <section class="layout">
+      <article class="post-content">
         <?php the_content(); ?>
         <div class="share-post">
           <h4>Share this post</h4>
@@ -75,10 +75,10 @@
           </ul>
         </div>
       </article>
-		</section>
-	</div>
+    </section>
+  </div>
 
-	<div class="band extra">
+  <div class="band extra">
     <section class="layout">
       <h5>Comments</h5>
 

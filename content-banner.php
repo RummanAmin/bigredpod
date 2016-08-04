@@ -1,4 +1,4 @@
-<?php $the_query = new WP_Query( 'showposts=1' ); ?>
+<?php $the_query = new WP_Query( 'showposts=1&post_type=article' ); ?>
 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
 	<?php if (has_post_thumbnail( $post->ID ) ): ?>

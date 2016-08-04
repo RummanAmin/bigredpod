@@ -1,6 +1,6 @@
 <?php
   $args = array(
-    'post_type' => 'podcast'
+    'post_type' => 'post'
   );
 
   $loop = new WP_Query($args);

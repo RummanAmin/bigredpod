@@ -1,6 +1,6 @@
 <?php
   $args = array(
-    'post_type' => 'post'
+    'post_type' => 'article'
   );
 
   $loop = new WP_Query($args);
