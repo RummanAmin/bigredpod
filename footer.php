@@ -26,13 +26,13 @@
               <li><a href="https://twitter.com/bigredpod" class="icon-twitter"></a></li>
               <li><a href="https://www.facebook.com/bigredpod" class="icon-facebook"></a></li>
               <li><a href="https://www.instagram.com/bigredpod" class="icon-instagram"></a></li>
-              <li><a href="#" class="icon-rss2"></a></li>
-              <li><a href="#" class="icon-podcast"></a></li>
+              <li><a href="http://bigredpod.com/feed/podcast/" class="icon-rss2"></a></li>
+              <li><a href="https://audioboom.com/bigredpod" class="icon-podcast"></a></li>
               <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/itunes-big.svg" alt="itunes" class="itunes"></a></li>
             </ul>
           </article>
           <div class="bottom-text">
-            <p>Website designed by <a href="http://www.bytebubble.co.uk">Bytebubble.</a></p>
+            <p>Website by <a href="http://www.bytebubble.co.uk">Bytebubble.</a></p>
           </div>
         </footer>
       </div>
