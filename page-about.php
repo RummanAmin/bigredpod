@@ -31,7 +31,7 @@
             <li><a href="https://audioboom.com/bigredpod" class="icon-podcast"></a></li>
           </ul>
         </li>
-        <li><a href="#">Subscribe</a></li>
+        <li><a href="https://itunes.apple.com/gb/podcast/bigredpod/id1140949515">Subscribe</a></li>
       </ul>
     </article>
     <article class="story-background">
