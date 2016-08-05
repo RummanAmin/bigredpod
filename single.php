@@ -11,15 +11,8 @@
 
   <div class="band header">
     <section class="layout">
-      <h2><?php the_time('l, jS F Y'); ?></h2>
       <h1><?php the_title(); ?></h1>
-      <div class="tags">
-        <?php the_tags( '', '', '' ); ?>
-      </div>
-      <div class="scroll-down">
-        <p>Scroll down</p>
-        <a class="icon-down" href="#scroll-down"></a>
-      </div>
+      <h2><?php the_time('l, jS F Y'); ?></h2>
     </section>
   </div>
   
@@ -56,6 +49,10 @@
     <section class="layout">
       <article class="post-content">
         <?php the_content(); ?>
+        <div class="tags">
+          <p>Category: <?php the_category(' '); ?></p>
+          <p>Tags: <?php the_tags( '', ', '); ?></p>
+        </div>
         <div class="share-post">
           <h4>Share this post</h4>
           <p>Thank you for visiting the BigrRedPod. Please help us by sharing this post with your friends!</p>
