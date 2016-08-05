@@ -8,12 +8,10 @@
 	 $image = get_stylesheet_directory_uri() . '/img/backgrounds/image.jpg'; ?>
 	<?php endif; ?>
 
-	<article id="post-<?php the_ID(); ?>" class="story-background" style="background-image: radial-gradient(circle at 44% 37%, rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url('<?php echo $image; ?>')" >
+	<article id="post-<?php the_ID(); ?>" class="story-background" style="background-image: url('<?php echo $image; ?>')" >
 		<div>
-		  <h3><?php the_title(); ?></h3>
-		  <h5><span class="icon-calendar"></span> <?php the_time('j F Y'); ?></h5>
-		  <?php the_excerpt(); ?>
-		  <a href="<?php the_permalink(); ?>" class="button">Read More<span class="icon-arrow-right2"></span></a>
+		  <p><?php the_time('j F Y'); ?></p>
+		  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 		</div>
 	</article>
 
