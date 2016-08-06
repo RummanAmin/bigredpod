@@ -3,16 +3,11 @@
   <?php if ( have_posts() ) : ?>
       <div class="band header">
         <section class="layout">
-          <h2>Search Results</h2>
-          <h1><?php the_search_query(); ?></h1>
-          <div class="scroll-down">
-            <p>Scroll down</p>
-            <a class="icon-down" href="#scroll-down"></a>
-          </div>
+          <h2>Search results</h2>
+          <h1>'<?php the_search_query(); ?>'</h1>
         </section>
       </div>
 
-      <a name="scroll-down"></a>
       <div class="band search-grid">
         <section class="layout">
           <article class="main-content">
@@ -24,6 +19,14 @@
           </article>
           <article class="side-content">
             <?php get_sidebar(); ?>
+            <h4 class="widget-title">Social Media</h4>
+            <ul class="social-media">
+              <li><a href="https://twitter.com/bigredpod" class="icon-twitter"></a></li>
+              <li><a href="https://www.facebook.com/bigredpod" class="icon-facebook"></a></li>
+              <li><a href="https://plus.google.com/+Bigredpod" class="icon-google-plus"></a></li>
+              <li><a href="http://bigredpod.com/feed/podcast/" class="icon-rss2"></a></li>
+              <li><a href="https://audioboom.com/bigredpod" class="icon-podcast"></a></li>
+            </ul>
           </article>
         </section>
       </div>
