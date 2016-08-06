@@ -34,7 +34,7 @@
             <ul class="social-media">
               <li><a href="https://twitter.com/bigredpod" class="icon-twitter"></a></li>
               <li><a href="https://www.facebook.com/bigredpod" class="icon-facebook"></a></li>
-              <li><a href="https://www.instagram.com/bigredpod" class="icon-instagram"></a></li>
+              <li><a href="https://plus.google.com/+Bigredpod" class="icon-google-plus"></a></li>
               <li><a href="http://bigredpod.com/feed/podcast/" class="icon-rss2"></a></li>
               <li><a href="https://audioboom.com/bigredpod" class="icon-podcast"></a></li>
             </ul>
