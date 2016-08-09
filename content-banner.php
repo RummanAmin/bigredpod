@@ -8,11 +8,13 @@
 	 $image = get_stylesheet_directory_uri() . '/img/backgrounds/image.jpg'; ?>
 	<?php endif; ?>
 
-	<article id="post-<?php the_ID(); ?>" class="story-background" style="background-image: url('<?php echo $image; ?>')" >
-		<div>
-		  <p><?php the_time('j F Y'); ?></p>
-		  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-		</div>
+	<article id="post-<?php the_ID(); ?>" class="story-background">
+		<a href="<?php the_permalink(); ?>" style="background-image: url('<?php echo $image; ?>')" >
+			<div>
+			  <p><?php the_time('j F Y'); ?></p>
+			  <h3><?php the_title(); ?></h3>
+			</div>
+		</a>
 	</article>
 
 <?php endwhile; wp_reset_postdata(); ?>
