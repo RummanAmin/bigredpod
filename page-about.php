@@ -56,9 +56,9 @@
         <h3>Release Schedule</h3>
         <p>Each week we'll be releasing 3 regular posts. The first, our flagship podcast. Followed by two blog posts, a match preview and a featured post, discussing current talking points surrounding the club.</p>
         <ul>
-          <li><strong>Monday</strong> - Weekly Podcast</li>
-          <li><strong>Wednesday</strong> - Featured Post</li>
-          <li><strong>Friday</strong> - Match Preview</li>
+          <li><strong>Monday</strong> - BigRedPod Podcast (Weekly)</li>
+          <li><strong>Thursday</strong> - Match Preview (Weekly)</li>
+          <li><strong>Wednesday</strong> - Featured Post (Fornightly)</li>
         </ul>
     </article>
     <article>
