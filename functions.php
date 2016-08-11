@@ -90,4 +90,19 @@
 	}
 	add_action( 'widgets_init', 'bigredpod_widgets_init' );
 
+	// Articles Taxonomy Fix
+	function wpa_cpt_tags( $query ) {
+	    if ( $query->is_tag() && $query->is_main_query() ) {
+	        $query->set( 'post_type', array( 'article', 'object' ) );
+	    }
+	}
+	add_action( 'pre_get_posts', 'wpa_cpt_tags' );
+
+	function wpa_cpt_category( $query ) {
+	    if ( $query->is_category() && $query->is_main_query() ) {
+	        $query->set( 'post_type', array( 'article', 'object' ) );
+	    }
+	}
+	add_action( 'pre_get_posts', 'wpa_cpt_category' );
+
  ?>
