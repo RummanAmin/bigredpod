@@ -50,11 +50,11 @@
       <article class="post-content">
         <?php the_content(); ?>
         <div class="tags">
-          <p>Category: <?php the_category(' '); ?></p>
-          <p>Tags: <?php the_tags( '', ', '); ?></p>
+          <p><strong>Category:</strong> <?php the_category(' '); ?></p>
+          <p><strong>Tags:</strong> <?php the_tags( '', ', '); ?></p>
         </div>
         <div class="share-post">
-          <h4>Share this post</h4>
+          <h4>Share this Post</h4>
           <p>Thank you for visiting the BigrRedPod. Please help us by sharing this post with your friends!</p>
           <ul>
             <li>
@@ -70,6 +70,13 @@
               <a target="blank" href="https://www.tumblr.com/share?v=3&u=<?php the_permalink();?>&t=<?php the_title(); ?>" class="link-tm">Tumblr</a>
             </li>
           </ul>
+        </div>
+        <div class="post-nav">
+          <?php the_post_navigation( array (
+            'prev_text'                  => __( 'Previous: %title' ),
+            'next_text'                  => __( 'Next: %title' ),
+            'screen_reader_text' => __( 'Navigation' ),
+          )); ?>
         </div>
       </article>
     </section>
@@ -88,6 +95,7 @@
     </section>
   </div>
 
+<?php wp_reset_postdata(); ?>
 <?php endwhile; endif; ?>
 
 <?php get_footer(); ?>

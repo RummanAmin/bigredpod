@@ -31,6 +31,7 @@
         </section>
       </div>
 
+    <?php wp_reset_postdata(); ?>
     <?php else : ?>
       
       <div class="band main">

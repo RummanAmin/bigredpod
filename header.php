@@ -24,7 +24,7 @@
     <div class="band top">
       <header class="layout">
         <a href="<?php echo esc_url( home_url() ) ?>" class="logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg"></a>
-        <nav>
+        <nav class="main-navigation">
           <?php 
 
               $defaults = array(
