@@ -46,18 +46,22 @@
   <section class="layout">
     <article>
       <h3>About</h3>
-      <p>The BigRedPod is a weekly podcast all about Manchester United Football Club. Each week we'll have plenty of debate, reaction and opinion on the weekend&#39;s football. We'll also be answering plenty of questions from listeners, so start sending them in today.</p>
+      <p>The BigRedPod is a weekly podcast all about <a href="http://www.manutd.com">Manchester United Football Club</a>. Each week we'll have plenty of debate, reaction and opinion on the weekend&#39;s football.</p>
 
-      <p>We started the BigRedPod because we love talking about United and we love listening to fan's opinions. So we thought it's about time we started sharing our own thoughts with other United fans as well.</p>
+      <p>We'll also be writing tons of articles covering the latest news, transfer stories, match reviews, previews and all manner of other posts related to <a href="http://www.manutd.com">The Red Devils</a>.</p>
 
-      <p>New episodes go live each and every Monday. You can find the BigRedPod on iTunes and Audioboom, so please subscribe today.</p>
+      <p>We started the BigRedPod because we love talking about United and we love listening to fan's opinions. Furthermore, we want to make the BigRedPod as interactive as possible so please feel free to send in any questions, feedback and suggestions.</p>
+      
+      <p>Tweet us <a href="https://www.twitter.com/bigredpod">@BigRedPod</a>, Contact our host <a href="https://www.twitter.com/rumantweets">@Rumantweets</a> or Email us <a href="mailto:Info@bigredpod.com">Info@bigredpod.com</a></p>
+
+      <p>New episodes go live each and every Monday. You can find the BigRedPod on <a href="https://itunes.apple.com/gb/podcast/bigredpod/id1140949515">iTunes</a> and <a href="https://audioboom.com/bigredpod">Audioboom</a>, so please subscribe today.</p>
 
       <div class="panel">
         <h3>Release Schedule</h3>
-        <p>Each week we'll be releasing 3 regular posts. The first, our flagship podcast. Followed by two blog posts, a match preview and a featured post, discussing current talking points surrounding the club.</p>
+        <p>Each week we'll be releasing 2 regular posts. The first, our flagship podcast. Followed by a match preview. Additionally, we'll also be writing several featured posts, discussing current talking points surrounding the club.</p>
         <ul>
-          <li><strong>Monday</strong> - BigRedPod Podcast (Weekly)</li>
-          <li><strong>Thursday</strong> - Match Preview (Weekly)</li>
+          <li><strong>Monday</strong> - BigRedPod Podcast</li>
+          <li><strong>Thursday</strong> - Match Preview</li>
           <li><strong>Wednesday</strong> - Featured Post (Fornightly)</li>
         </ul>
     </article>

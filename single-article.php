@@ -39,7 +39,7 @@
       </article>
       <article class="story-background" style="background-image: url('<?php echo $image; ?>');" >
         <div>
-          <p><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
+          <p class="post-excerpt"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
         </div>
       </article>
     </section>
