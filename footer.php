@@ -2,11 +2,10 @@
         <footer class="layout">
           <article>
             <h4>BigRedPod</h4>
-            <li><a href="/podcasts">Podcast</a></li>
-            <li><a href="/blog">Blog</a></li>
             <li><a href="/about">About</a></li>
+            <li><a href="/podcasts">Podcast</a></li>
+            <li><a href="/blog">News</a></li>
             <li><a href="mailto:info@bigredpod.com?Subject=Hello">Contact</a></li>
-            <li><a href="https://itunes.apple.com/gb/podcast/bigredpod/id1140949515">Subscribe</a></li>
           </article>
           <article>
             <h4>Network</h4>

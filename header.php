@@ -24,8 +24,10 @@
     <div class="band top">
       <header class="layout">
         <a href="<?php echo esc_url( home_url() ) ?>" class="logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logo.svg"></a>
+        <a href="#" class="open-panel open-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/menu.svg"></a>
         <nav class="main-navigation">
-          <?php 
+          <a href="#" class="close-panel close-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/icons/close.svg"></a>
+            <?php 
 
               $defaults = array(
 

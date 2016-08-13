@@ -4,18 +4,11 @@
     
     <div class="band header">
       <section class="layout">
-        <h2><?php the_time('l, jS F Y'); ?></h2>
         <h1><?php the_title(); ?></h1>
-        <a href="/podcasts" class="button ">Listen Now<span class="icon-play2"></span></a>
-        <a href="<?php the_permalink(); ?>" class="button">Read More<span class="icon-arrow-right2"></span></a>
-        <div class="scroll-down">
-          <p>Scroll down</p>
-          <a class="icon-down" href="#scroll-down"></a>
-        </div>
+        <h2><?php the_field('introduction'); ?></h2>
       </section>
     </div>
     
-    <a name="scroll-down"></a>
     <div class="band main">
       <section class="layout">
         

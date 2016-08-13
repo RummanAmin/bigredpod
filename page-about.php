@@ -2,18 +2,11 @@
 
 <div class="band header">
   <section class="layout">
-    <h2>Reaction, Debate and Discussion</h2>
     <h1>A unique and opinionated take on MUFC</h1>
-    <a href="/podcasts" class="button ">Listen Now<span class="icon-play2"></span></a>
-    <a href="https://www.twitter.com/bigredpod" class="button">Follow Us<span class="icon-arrow-right2"></span></a>
-    <div class="scroll-down">
-      <p>Scroll down</p>
-      <a class="icon-down" href="#scroll-down"></a>
-    </div>
+    <h2><?php the_field('introduction'); ?></h2>
   </section>
 </div>
 
-<a name="scroll-down"></a>
 <div class="band intro">
   <section class="layout">
     <article>
@@ -58,15 +51,43 @@
 
       <div class="panel">
         <h3>Release Schedule</h3>
-        <p>Each week we'll be releasing 2 regular posts. The first, our flagship podcast. Followed by a match preview. Additionally, we'll also be writing several featured posts, discussing current talking points surrounding the club.</p>
+        <p>Each week we'll be releasing 3 regular posts. Our Podcast, Match Review and Match Previews. We'll also be writing several featured posts, discussing current talking points surrounding the club, typicaly released midweek throughout the month.</p>
         <ul>
+          <li><strong>Sunday</strong> - Match Review</li>
           <li><strong>Monday</strong> - BigRedPod Podcast</li>
           <li><strong>Thursday</strong> - Match Preview</li>
-          <li><strong>Wednesday</strong> - Featured Post (Fornightly)</li>
+          <li><strong>Midweek</strong> - Featured Post (Fornightly)</li>
         </ul>
     </article>
-    <article>
-      </div>
+    <article class="sidebar-posts">
+      <?php $the_query = new WP_Query( 'showposts=1&post_type=post' ); ?>
+      <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+        <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+          <div class="inner-text">
+            <h4 class="post-title"><?php the_title(); ?></h4>
+            <ul class="post-meta">
+              <li>
+                <h5><span class="icon-calendar"></span> <?php the_time('j F Y'); ?></h5>
+              </li>
+              <li>
+                <h5><span class="icon-clock"></span> <?php the_field('duration'); ?> Mins</h5>
+              </li>
+            </ul>
+            <a href="<?php the_permalink(); ?>" class="button">Read More<span class="icon-arrow-right2"></span></a>
+          </div>
+        </div>
+      <?php endwhile; wp_reset_postdata(); ?>
+
+      <?php $the_query = new WP_Query( 'showposts=2&post_type=article' ); ?>
+      <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+        <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+          <div class="inner-text">
+            <h4 class="post-title"><?php the_title(); ?></h4>
+            <h5><span class="icon-calendar"></span> <?php the_time('j F Y'); ?></h5>
+            <a href="<?php the_permalink(); ?>" class="button">Read More<span class="icon-arrow-right2"></span></a>
+          </div>
+        </div>
+      <?php endwhile; wp_reset_postdata(); ?>
     </article>
   </section>
 </div>
