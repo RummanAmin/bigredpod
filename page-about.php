@@ -60,34 +60,7 @@
         </ul>
     </article>
     <article class="sidebar-posts">
-      <?php $the_query = new WP_Query( 'showposts=1&post_type=post' ); ?>
-      <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-        <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          <div class="inner-text">
-            <h4 class="post-title"><?php the_title(); ?></h4>
-            <ul class="post-meta">
-              <li>
-                <h5><span class="icon-calendar"></span> <?php the_time('j F Y'); ?></h5>
-              </li>
-              <li>
-                <h5><span class="icon-clock"></span> <?php the_field('duration'); ?> Mins</h5>
-              </li>
-            </ul>
-            <a href="<?php the_permalink(); ?>" class="button">Read More<span class="icon-arrow-right2"></span></a>
-          </div>
-        </div>
-      <?php endwhile; wp_reset_postdata(); ?>
-
-      <?php $the_query = new WP_Query( 'showposts=2&post_type=article' ); ?>
-      <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-        <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          <div class="inner-text">
-            <h4 class="post-title"><?php the_title(); ?></h4>
-            <h5><span class="icon-calendar"></span> <?php the_time('j F Y'); ?></h5>
-            <a href="<?php the_permalink(); ?>" class="button">Read More<span class="icon-arrow-right2"></span></a>
-          </div>
-        </div>
-      <?php endwhile; wp_reset_postdata(); ?>
+      
     </article>
   </section>
 </div>
