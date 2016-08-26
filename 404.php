@@ -1,19 +1,29 @@
 <?php get_header(); ?>
 
-	<div id="primary" class="band error-404">
-		<main id="main" class="site-main" role="main">
+	<div class="band header">
+    <section class="layout">
+      <h1>404</h1>
+      <h2><?php _e( 'Oops! That page can&rsquo;t be found.', 'bigredpod' ); ?></h2>
+    </section>
+  </div>
+  
+  <div class="band search-grid">
+  <section class="layout">
+    <article class="main-content">
+      <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    </article>
+    <article class="side-content">
+      <?php get_sidebar(); ?>
+      <h4 class="widget-title">Social Media</h4>
+      <ul class="social-media">
+        <li><a href="https://twitter.com/bigredpod" class="icon-twitter"></a></li>
+        <li><a href="https://www.facebook.com/bigredpod" class="icon-facebook"></a></li>
+        <li><a href="https://plus.google.com/+Bigredpod" class="icon-google-plus"></a></li>
+        <li><a href="http://bigredpod.com/feed/podcast/" class="icon-rss2"></a></li>
+        <li><a href="https://audioboom.com/bigredpod" class="icon-podcast"></a></li>
+      </ul>
+    </article>
+  </section>
+</div>
 
-			<section class="layout">
-				<article><h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'bigredpod' ); ?></h1>
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'bigredpod' ); ?></p>
-					</article>
-					<article>
-						<?php get_sidebar(); ?>
-					</article>
-			</section><!-- .error-404 -->
-
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
