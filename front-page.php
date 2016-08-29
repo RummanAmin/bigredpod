@@ -104,7 +104,7 @@
       <?php endwhile; wp_reset_postdata(); ?>
     </section>
     <div class="load-more layout">
-      <a class="button" href="/blog"><span class="icon-plus"></span></a>
+      <a class="button" href="/news"><span class="icon-plus"></span></a>
     </div>
   </div>
 

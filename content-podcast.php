@@ -1,12 +1,14 @@
 <?php
+  $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
   $args = array(
+    'paged' => $paged,
     'post_type' => 'post'
   );
 
-  $loop = new WP_Query($args);
-  while ($loop->have_posts()) : $loop->the_post(); 
+  query_posts($args); 
 ?>
-
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <a href="<?php the_permalink(); ?>"><img src="<?php the_field('cover_art'); ?>" alt="<?php echo get_the_title(get_field('cover_art')) ?>" /></a>
   <div class="inner-text">
@@ -24,4 +26,14 @@
   </div>
 </article>
 
-<?php endwhile; wp_reset_postdata(); ?>
+<?php endwhile; else : ?>
+
+  <div class="band main">
+    <section class="layout">
+
+    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+
+    </section>
+  </div>
+
+<?php endif; ?>

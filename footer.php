@@ -4,7 +4,7 @@
             <h4>BigRedPod</h4>
             <li><a href="/about">About</a></li>
             <li><a href="/podcasts">Podcast</a></li>
-            <li><a href="/blog">News</a></li>
+            <li><a href="/news">News</a></li>
             <li><a href="mailto:info@bigredpod.com?Subject=Hello">Contact</a></li>
           </article>
           <article>
