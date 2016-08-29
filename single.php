@@ -73,8 +73,8 @@
         </div>
         <div class="post-nav">
           <?php the_post_navigation( array (
-            'prev_text'                  => __( 'Previous: %title' ),
-            'next_text'                  => __( 'Next: %title' ),
+            'prev_text' => __( '<strong>Previous:</strong> %title' ),
+            'next_text' => __( '<strong>Next:</strong> %title' ),
             'screen_reader_text' => __( 'Navigation' ),
           )); ?>
         </div>
