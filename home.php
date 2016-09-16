@@ -16,17 +16,6 @@
       <h3>Previous Episodes</h3>
       <p>Missed an episode? No problem! You'll find all the previous episodes of the BigRedPod below. We're sure there'll be some real drama in the Premier League this season, and we'll be covering it all; so make sure you stay tuned.</p>
     </div>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-     <!-- Default -->
-      <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-7364953934710317"
-        data-ad-slot="5572598182"
-        data-ad-format="rectangle, horizontal">
-      </ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
     <section class="layout">
       <?php get_template_part( 'content', 'podcast' ); ?>
     </section>

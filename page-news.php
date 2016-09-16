@@ -16,17 +16,6 @@
       <h3>latest posts</h3>
       <p>Over the coming season, we'll be writing a ton of blog posts full of analysis and opinion on the ongoings at Manchester United.</p>
     </div>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-     <!-- Default -->
-      <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-7364953934710317"
-        data-ad-slot="5572598182"
-        data-ad-format="rectangle, horizontal">
-      </ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
     <section class="layout">
 	    <?php get_template_part( 'content', 'news' ); ?>
     </section>
