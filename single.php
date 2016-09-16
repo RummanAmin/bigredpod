@@ -48,7 +48,31 @@
   <div class="band main">
     <section class="layout">
       <article class="post-content">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+         <!-- Default -->
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-7364953934710317"
+            data-ad-slot="5572598182"
+            data-ad-format="rectangle, horizontal">
+          </ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
         <?php the_content(); ?>
+        <div class="post-ad">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+           <!-- Default -->
+            <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-7364953934710317"
+              data-ad-slot="5572598182"
+              data-ad-format="rectangle, horizontal">
+            </ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
         <div class="tags">
           <p><strong>Category:</strong> <?php the_category(' '); ?></p>
           <p><strong>Tags:</strong> <?php the_tags( '', ', '); ?></p>
