@@ -12,6 +12,13 @@
 	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7364953934710317",
+    enable_page_level_ads: true
+  });
+</script>
 
 <body <?php body_class(); ?>>
   <!--[if lt IE 8]>
