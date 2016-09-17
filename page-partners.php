@@ -11,7 +11,7 @@
     <section class="layout">
       <article>
         <h3><a href="http://www.subsmart.co.uk">Subsmart</a></h3>
-        <p>If there is one thing we know, it’s what it’s like to be a student. The struggles, the financial strains, the lack of time and sometimes…the loss of motivation. Our aim with Subsmart is to remove some of that stuff you have to think about and make life easier – the way we wish it was for us, not so long ago.</p>
+        <p>If there is one thing we know, it’s what it’s like to be a student. The struggles, the financial strains, the lack of time and sometimes, the loss of motivation. Subsmart will remove some of that stuff you have to think about and make life easier – the way we wish it was for us, not so long ago.</p>
         <p>Our aim is to help students get their hands on the best deals, we’ll be scouring the web on your behalf and post the best deals on here. If you’d like to share an offer here, just give us a shout.</p>
         <a href="http://www.subsmart.co.uk">Read more</a>
       </article>
@@ -38,13 +38,13 @@
   <div class="band main">
     <section class="layout">
       <article>
-        <h3><a href="<?php echo esc_url( home_url() ) ?>">BigRedPod</a></h3>
+        <h3><a href="/about">BigRedPod</a></h3>
         <p>The BigRedPod is a weekly podcast all about Manchester United Football Club. Each week we’ll have plenty of debate, reaction and opinion on the weekend's football.</p>
         <p>New episodes go live each and every Monday. You can find the BigRedPod on iTunes and Audioboom, so please subscribe today.</p>
-        <a href="<?php echo esc_url( home_url() ) ?>">Read more</a>
+        <a href="/about">Read more</a>
       </article>
       <article>
-      <a href="<?php echo esc_url( home_url() ) ?>" class="partner-logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logos/bigredpod.png" alt="bigredpod"></a>
+      <a href="/about" class="partner-logo"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/logos/bigredpod.png" alt="bigredpod"></a>
       </article>
     </section>
   </div>

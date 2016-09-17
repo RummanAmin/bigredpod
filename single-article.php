@@ -16,7 +16,6 @@
     </section>
   </div>
   
-  <a name="scroll-down"></a>
   <div class="band intro">
     <section class="layout">
       <article>
