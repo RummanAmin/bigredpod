@@ -22,7 +22,7 @@
   </div>
 
   <div class="band main">
-    <section class="layout move-right">
+    <section class="layout">
       <article>
         <h3><a href="http://www.bytebubble.co.uk">ByteBubble</a></h3>
         <p>We’re ByteBubble, an Independent Digital Agency from London. We work with a diverse range of companies, brands and partners across multiple platforms. We help clients bring their ideas to life.</p>
@@ -50,7 +50,7 @@
   </div>
 
   <div class="band main">
-    <section class="layout move-right">
+    <section class="layout">
       <article>
         <h3><a href="http://dpmpod.com">DPM Podcast</a></h3>
         <p>A new podcast discussing the trials and tribulations of a Digital Project Manager. Launching January 2017, we'll hope to shine some light on a incredibly exciting field.</p>
