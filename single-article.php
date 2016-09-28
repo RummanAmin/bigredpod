@@ -47,17 +47,19 @@
   <div class="band main">
     <section class="layout">
       <article class="post-content">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-         <!-- Default -->
-          <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-7364953934710317"
-            data-ad-slot="5572598182"
-            data-ad-format="rectangle, horizontal">
-          </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <div class="content-ad">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+           <!-- Default -->
+            <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-7364953934710317"
+              data-ad-slot="5572598182"
+              data-ad-format="rectangle, horizontal">
+            </ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
         <?php the_content(); ?>
         <div class="post-ad">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
