@@ -10,17 +10,19 @@
   <div class="band main">
     <section class="layout move-right">
       <article>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-         <!-- Default -->
-          <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-7364953934710317"
-            data-ad-slot="5572598182"
-            data-ad-format="auto">
-          </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <div class="square-ad">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+           <!-- Default -->
+            <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-7364953934710317"
+              data-ad-slot="5572598182"
+              data-ad-format="auto">
+            </ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
         <div class="football-tables">
           <h4>Results</h4>
           <?php echo do_shortcode("[soccer-info id='2' type='results' team='662||Manchester United' limit='2' width='100%' /]"); ?>

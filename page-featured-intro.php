@@ -51,17 +51,19 @@ get_header(); ?>
 <div class="band main">
   <section class="layout move-right">
     <article class="sidebar-posts">
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-       <!-- Default -->
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7364953934710317"
-          data-ad-slot="5572598182"
-          data-ad-format="auto">
-        </ins>
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      <div class="square-ad">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+         <!-- Default -->
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-7364953934710317"
+            data-ad-slot="5572598182"
+            data-ad-format="auto">
+          </ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
     </article>
     <article>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
